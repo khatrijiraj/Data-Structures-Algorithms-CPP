@@ -85,9 +85,9 @@ int totalOccurence(int occurence[]) {
 int main() {
     int array[10] = {1, 2, 3, 3, 3, 3, 4, 5};
 
-    cout << "first occurence of 3 is: " << firstOccurence(array, 10, 3) << endl;
-    cout << "last occurence of 3 is: " << lastOccurence(array, 10, 3) << endl;
-    cout << "total number of occuerrence of 3: " << totalOccurence(array);
+    cout << "First occurence of 3 is: " << firstOccurence(array, 10, 3) << endl;
+    cout << "Last occurence of 3 is: " << lastOccurence(array, 10, 3) << endl;
+    cout << "Total number of occuerrence of 3: " << totalOccurence(array);
 
     return 0;
 }
