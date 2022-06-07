@@ -38,7 +38,7 @@ int main() {
     // enter the array elements
     cout << "Enter the array elements" << endl;
     for (int i = 0; i < size; i++) {
-        cout << "   Enter element at " << i << "th index: ";
+        cout << "\tEnter element at " << i << "th index: ";
         cin >> array[i];
     }
 
