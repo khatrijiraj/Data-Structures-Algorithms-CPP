@@ -1,3 +1,4 @@
+/* PROGRAM TO FIND PIVOT INDEX OR EQUILLIBRIUM INDEX */
 #include <iostream>
 using namespace std;
 
