@@ -1,14 +1,6 @@
 #include <iostream>
 using namespace std;
 
-/* function to print array */
-void display(int array[], int size) {
-    cout << "Array: ";
-    for (int i = 0; i < size; i++) {
-        cout << array[i] << " ";
-    }
-}
-
 /* insertion sort algorithm */
 void insertionSort(int array[], int size) {
     for (int i = 1; i < size; i++) {
@@ -19,12 +11,21 @@ void insertionSort(int array[], int size) {
         until smaller element is found */
 
         /* for sorting in descending order, currentElement > array[j] */
-        while (currentElement < array[j] && j >= 0) {
+        while (j >= 0 && currentElement < array[j]) {
             array[j + 1] = array[j];
-            --j;
+            j--;
         }
         array[j + 1] = currentElement;
     }
+}
+
+/* function to print array */
+void display(int array[], int size) {
+    cout << "Array: ";
+    for (int i = 0; i < size; i++) {
+        cout << array[i] << " ";
+    }
+    cout << endl;
 }
 
 int main() {
