@@ -64,7 +64,10 @@ int main() {
         cin >> array[i];
     }
 
+    /* calling bubbleSort function */
     bubbleSort(array, size);
+
+    /* printing array after sorting */
     display(array, size);
     return 0;
 }
