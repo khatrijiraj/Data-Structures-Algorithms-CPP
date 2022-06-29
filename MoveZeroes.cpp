@@ -4,7 +4,7 @@ using namespace std;
 
 /* function to move zeroes */
 void moveZeroes(vector<int>& vec) {
-    /* track position to swap */
+    /* track non zero position to swap */
     int i = 0;
 
     /* traversing vector and if found a position
