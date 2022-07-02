@@ -1,6 +1,22 @@
 #include <iostream>
 using namespace std;
 
+/* function to convert string into lowercase */
+char toLowerCase(char ch) {
+    /* if already in lowercase return char */
+    if (ch >= 'a' && ch <= 'z') {
+        return ch;
+    } else {
+        /* let ch = 'B'
+        'B' - 'A' = 1
+        then 1 + 'a' = 'b'
+        hence it will return lowercase
+        follow ASCII values for more */
+        char temp = ch - 'A' + 'a';
+        return temp;
+    }
+}
+
 /* function to find length of char array */
 int getLength(char name[]) {
     /* size of char array*/
@@ -24,7 +40,7 @@ bool checkPalindrome(char name[], int size) {
     its not a palindrome and moving to next
     if they are same */
     while (start <= end) {
-        if (name[start] != name[end]) {
+        if (toLowerCase(name[start]) != toLowerCase(name[end])) {
             return false;
         } else {
             start++;
