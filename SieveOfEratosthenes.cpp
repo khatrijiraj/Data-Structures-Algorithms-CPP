@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-/* complexity of Sieve of Eratosthenes
+/* Complexity of Sieve of Eratosthenes
  O ( n* log(logn) ) */
 int countPrimes(int n) {
     int count = 0;
