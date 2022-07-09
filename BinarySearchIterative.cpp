@@ -38,7 +38,7 @@ void BinarySearchIterative(int array[], int key, int start, int end) {
 }
 
 int main() {
-    // array of size entered by user
+    // array of size 20
     int array[20];
 
     /* initialising array with custom size
