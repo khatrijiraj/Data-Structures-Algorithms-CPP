@@ -29,13 +29,16 @@ void display(int array[], int size) {
 }
 
 int main() {
+    // array of size 20
+    int array[20];
+
     /* Enter the size of array */
     int size;
     cout << "Enter the size of array: ";
     cin >> size;
 
     /* array of size entered by user */
-    int array[size];
+    array[size];
 
     /* enter array elements */
     for (int i = 0; i < size; i++) {

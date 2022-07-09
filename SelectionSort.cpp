@@ -42,13 +42,16 @@ void selectionSort(int array[], int size) {
 
 // main function
 int main() {
+    // array of size 20
+    int array[20];
+
     // size of array
     int size;
     cout << "Enter the size of array: ";
     cin >> size;
 
     // array of size user entered
-    int array[size];
+    array[size];
 
     // input array elements at each index
     cout << "Enter array elements\n";

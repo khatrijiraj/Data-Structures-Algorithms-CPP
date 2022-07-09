@@ -31,6 +31,9 @@ int peakIndexMountainArrayBinarySearch(int array[], int size) {
 }
 
 int main() {
+    // array of size 20
+    int array[20];
+
     /* initialising array with custom size
     which user will enter */
     int size;
@@ -40,7 +43,7 @@ int main() {
     cin >> size;
 
     // array of size entered by user
-    int array[size];
+    array[size];
 
     // enter the array elements
     cout << "Enter the array elements" << endl;

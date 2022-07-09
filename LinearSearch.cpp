@@ -26,6 +26,9 @@ void LinearSearch(int size, int array[], int key) {
 }
 
 int main() {
+    // array of size 20
+    int array[20];
+
     /* initialising array with custom size
     which user will enter */
     int size;
@@ -39,7 +42,7 @@ int main() {
     cout << "Enter the size of array: ";
     cin >> size;
 
-    int array[size];
+    array[size];
 
     // enter the array elements
     cout << "Enter the array elements" << endl;
